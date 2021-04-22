@@ -58,3 +58,6 @@ footer {
   width: 1400px;
   font-family: 'Caveat', cursive;
 }
+br.clear {
+  clear: both;
+}
