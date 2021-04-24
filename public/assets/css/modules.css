@@ -9,6 +9,10 @@ select {
   line-height: 1.75em;
   color: #888;
 }
+header h2 {
+  font-size: 3em;
+  /* color: red; */
+}
 
 h1,
 h2,
@@ -47,10 +51,16 @@ h2 {
 
 h2.alt {
   color: #888;
+  font-size: 2.5em;
+  font-weight: bold;
 }
 
 h2.alt strong {
   color: #666;
+}
+h2.alt + p {
+  font-size: 1.2em;
+  color: rgb(245, 244, 248);
 }
 
 h3 {

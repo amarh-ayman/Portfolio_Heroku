@@ -575,9 +575,22 @@ article:last-child {
 #main > section.one {
   background-color: #81918e;
   background-image: url('../../images/banner.jpg');
+  position: relative;
+}
+#main > section.one video {
+  object-fit: cover;
+  /* min-width: 100%; */
+  /* overflow: hidden; */
+  /* height: 417px; */
+  position: absolute;
+  /* z-index: -1; */
+  right: 0;
+  bottom: 0;
+  /* object-position: center center; */
 }
 #main > section.one header {
   margin-bottom: 50px;
+  position: relative;
 }
 #main > section.two {
   background-color: #f5fafa;
@@ -586,11 +599,18 @@ article:last-child {
 #main > section.three {
   background-color: #ecf1f1;
 }
+#main > section.three img {
+  width: 40%;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
 
 #main > section.four {
   background-color: #e8edec;
 }
-
+#main > section.four p {
+  margin-bottom: 20px;
+}
 /* Narrower */
 
 #headerToggle {
