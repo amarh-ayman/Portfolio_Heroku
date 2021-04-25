@@ -323,6 +323,7 @@ input[type='reset']:hover,
 button:hover,
 .button:hover {
   background-color: #9ececc;
+  color: #e27689 !important;
 }
 
 input[type='button']:active,

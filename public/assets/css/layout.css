@@ -603,6 +603,11 @@ article:last-child {
   width: 40%;
   margin-bottom: 20px;
   margin-top: -20px;
+
+  background: transparent;
+  padding: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 10px 10px 10px #999;
 }
 
 #main > section.four {
